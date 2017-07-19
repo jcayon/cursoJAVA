@@ -1,0 +1,127 @@
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+body {
+	background: #e1c192 url("../images/azulejo_pattern.jpg");
+	background-size: cover;
+}
+
+section {
+    /* Size and position */
+    float:left;
+	width: 44%;
+    margin: 60px 3%;
+    padding: 15px;
+    position: relative;
+ 
+    /* Styles */
+    background: #fffaf6;
+    border-radius: 4px;
+    color: #7e7975;
+    box-shadow:
+        0 2px 2px rgba(0,0,0,0.2),        
+        0 1px 5px rgba(0,0,0,0.2),        
+        0 0 0 12px rgba(255,255,255,0.4); 
+}
+section > div {
+	-webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.5);
+	box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.5);
+}
+.inputBlock {
+	background: #F00000;
+	border-radius: 4px 4px 0 0;
+	border: solid #000;
+	border-width: 2px 2px 0 2px;
+}
+.resultBlock {
+	background: #FFF;
+	border-radius: 0 0 4px 4px;
+	border: solid #000;
+	border-width: 0 2px 2px 2px;
+}
+section h1 {
+	padding: 15px 0 0 5px;
+	margin: 0 0 0 10px;
+	color: #FFF;
+	border: solid #FFF;
+	border-width: 0 0 2px 0;
+	border-radius: 20px 0;
+}
+section form{
+	padding: 10px;
+}
+#todoList .inputBlock form > div {
+	width: 30%;
+}
+#todoList .inputBlock form > div#priorityInput {
+	width: 20%;
+}
+.bloqueTarea{
+	height: 50px;
+	padding: 6px;
+	border: solid #888;
+	border-width: 0 0 1px 0;
+}
+.bloqueTarea div{
+	display: inline-block;
+	width: 60%;
+}
+.bloqueTarea p{
+	display: inline-block;
+	width: 20%;
+}
+.bloqueTarea input{
+	display: inline-block;
+	float:right;
+	margin: 2px;
+}
+.numeroTareas{
+	height: 30px;
+	line-height: 30px;
+}
+section .inputBlock form > input{
+	padding: 6px;
+}
+.fichaContacto {
+	height: 145px;
+	padding: 10px;
+	border: solid #888;
+	border-width: 0 0 1px 0;
+}
+.fichaContacto .imagen {
+	position:relative;
+	float: left;
+	width: 0;
+}
+.fichaContacto .imagen img {
+	width: 130px;
+}
+.fichaContacto .datos {
+	position:relative;
+	float: left;
+	width: 100%;
+	padding: 10px 0 0 140px;
+}
+.fichaContacto .herramientas{
+	float: right;
+}
+
+.bs-callout {
+    border-left-width: 5px;
+}
+
+.bs-callout-Alta {
+    border-left-color: #FF0000;
+}
+.bs-callout-Media {
+    border-left-color: #0000FF;
+}
+.bs-callout-Baja {
+    border-left-color: #00FF00;
+}
+.resultBlock > form{
+	padding:0;
+}
